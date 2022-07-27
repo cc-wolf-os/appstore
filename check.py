@@ -1,7 +1,7 @@
 import logging
 import programs
 valid = 0
-programlist = list(programs.programs.keys())
+programslist = list(programs.programs.keys())
 sorted_programs_list = sorted(programslist)
 
 # Ensure the list is sorted.
