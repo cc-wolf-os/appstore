@@ -29,7 +29,7 @@ for i in programslist:
     docs = requests.get(programs.programs[i]["docs"])
     doc.write(docs.text)
     doc.close()
-    down = open(f"apps/{i}.code",  mode="w")
+    down = open(f"apps/{i}.code.txt",  mode="w")
     code = requests.get(programs.programs[i]["docs"])
     down.write(code.text)
     down.close()
