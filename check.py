@@ -1,12 +1,12 @@
 import logging
 import programs
-valid = 1
+valid = 0
 programlist = list(programs.programs.keys())
 sorted_programs_list = sorted(programslist)
 
 # Ensure the list is sorted.
 if programslist != sorted_programs_list:
-  valid = 0
+  valid = 1
   logging.error(
                 "Invalid",
             )
