@@ -1,6 +1,6 @@
 programs = {
   "test":{
     "docs":"https://wolf-os.madefor.cc",
-    "download":"https://wolf-os.madefor.cc/tests/install"
+    "download":"https://raw.githubusercontent.com/cc-wolf-os/apps/main/test.code.txt"
   }
 }
