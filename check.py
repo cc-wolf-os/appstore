@@ -17,7 +17,13 @@ for i in programslist:
     if not (url.scheme == "http" or url.scheme == "https"):
       valid = 1
       logging.error(
-                "Invalid: urls",
+                "Invalid:  docs url",
+            )
+    url = urlparse(programs.programs[i]["download"])
+    if not (url.scheme == "http" or url.scheme == "https"):
+      valid = 1
+      logging.error(
+                "Invalid:  download url",
             )
   except:
     pass
