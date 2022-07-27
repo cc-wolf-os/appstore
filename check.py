@@ -25,11 +25,11 @@ for i in programslist:
       logging.error(
                 "Invalid:  download url",
             )
-    doc = open(f"{i}.docs.md", mode="w")
+    doc = open(f"apps/{i}.docs.md", mode="w")
     docs = requests.get(programs.programs[i]["docs"])
     doc.write(docs.text)
     doc.close()
-    down = open(f"{i}.code",  mode="w")
+    down = open(f"apps/{i}.code",  mode="w")
     code = requests.get(programs.programs[i]["docs"])
     down.write(code.text)
     down.close()
