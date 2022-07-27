@@ -30,7 +30,7 @@ for i in programslist:
     doc.write(docs.text)
     doc.close()
     down = open(f"apps/{i}.code.txt",  mode="w")
-    code = requests.get(programs.programs[i]["docs"])
+    code = requests.get(programs.programs[i]["download"])
     down.write(code.text)
     down.close()
   except:
