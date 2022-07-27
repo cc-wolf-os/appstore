@@ -1,4 +1,4 @@
-import logging
+import logging,sys
 import programs
 valid = 0
 programslist = list(programs.programs.keys())
