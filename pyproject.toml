@@ -6,7 +6,6 @@ authors = ["badgeminer"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-cloudflare = "^2.9.10"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.961"
