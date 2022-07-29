@@ -11,7 +11,7 @@ packages = {
 }
 libs = {
   "test":{
-    "docs":"https://wolf-os.madefor.cc",
+    "docs":"https://wolf-os.madefor.cc/devs",
     "code":"https://raw.githubusercontent.com/cc-wolf-os/apps/main/test.code.txt"
   }
 }
