@@ -1,17 +1,8 @@
 programs = {
   "test":{
     "docs":"https://wolf-os.madefor.cc/devs",
-    "download":"https://raw.githubusercontent.com/cc-wolf-os/apps/main/test.code.txt"
+    "download":"https://raw.githubusercontent.com/cc-wolf-os/apps/main/test.code.txt",
+    "type":"app"
   }
 }
-packages = {
-  "test":{
-    "code":"https://raw.githubusercontent.com/cc-wolf-os/apps/main/test.code.txt"
-  }
-}
-libs = {
-  "test":{
-    "docs":"https://wolf-os.madefor.cc/devs",
-    "code":"https://raw.githubusercontent.com/cc-wolf-os/apps/main/test.code.txt"
-  }
-}
+
