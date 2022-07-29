@@ -24,7 +24,6 @@ jobs:
     - name: Check
       run:  |
         python -m check
-        python -m libcheck
     
     - name: Commit files
       run: |
