@@ -22,7 +22,9 @@ jobs:
         python -m pip install requests
 
     - name: Check
-      run:  python -m check
+      run:  |
+        python -m check
+        python -m libcheck
     
     - name: Commit files
       run: |
